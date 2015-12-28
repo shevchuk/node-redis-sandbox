@@ -1,0 +1,21 @@
+{
+  "name": "node-redis",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.es6",
+  "scripts": {
+    "debug": "node dist/index.js",
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-syntax-async-functions": "^6.3.13",
+    "babel-plugin-transform-regenerator": "^6.3.26",
+    "babel-preset-stage-0": "^6.3.13",
+    "gulp-babel": "^6.1.1",
+    "gulp-exec": "^2.1.2",
+    "redis": "^2.4.2"
+  }
+}
