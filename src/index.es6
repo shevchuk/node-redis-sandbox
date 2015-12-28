@@ -5,7 +5,7 @@ client.on('error', (err) => {
     console.log('Error ' + err);
 });
 
-//client.set('color', 'red', redis.print);
+client.set('color', 'red', redis.print);
 
 client.get('color', (err, value) => {
     if (err) throw err;
